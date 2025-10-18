@@ -1,5 +1,7 @@
 # Ranger21 - integrating the latest deep learning components into a single optimizer
 
+![Chebyshev](chebytest.png)
+
 A rewrite of the Ranger deep learning optimizer to integrate newer optimization ideas and, in particular:
 
 - uses the AdamW optimizer as its core (or, optionally, MadGrad)
