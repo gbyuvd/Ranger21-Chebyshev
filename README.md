@@ -5,7 +5,7 @@
 > As of the current integration, users should use the **external ChebyshevLR scheduler**  
 > via:
 > ```python
-> from chebyshev_lr_functions import ChebyshevLR
+> from ranger21.chebyshev_lr_functions import ChebyshevLR
 > cheb_scheduler = ChebyshevLR(optimizer, total_steps=num_epochs*len(loader),
 >                              lr_start=1e-3, lr_end=1e-5, min_lr=1e-6)
 > ```
@@ -234,5 +234,6 @@ You can use the following BibTex to cite the [Ranger21 paper](https://arxiv.org/
       journal={arXiv preprint arXiv:2106.13731},
 }
 ```
+
 
 
