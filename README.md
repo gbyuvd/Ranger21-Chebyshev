@@ -10,8 +10,7 @@
 >                              lr_start=1e-3, lr_end=1e-5, min_lr=1e-6)
 > ```
 > and call `cheb_scheduler.step()` within the training loop.  
-> The internal `use_cheb=True` flag inside Ranger21 is being phased out  
-> and may not fully reflect the stable Chebyshev behavior.
+> Set the internal `use_cheb` flag inside Ranger21 to `False`  
 
 A rewrite of the Ranger deep learning optimizer to integrate newer optimization ideas and, in particular:
 
@@ -235,4 +234,5 @@ You can use the following BibTex to cite the [Ranger21 paper](https://arxiv.org/
       journal={arXiv preprint arXiv:2106.13731},
 }
 ```
+
 
